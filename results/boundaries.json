@@ -1,0 +1,129 @@
+[
+  {
+    "dist": "exp",
+    "alpha": 10,
+    "loss": {
+      "n": 801,
+      "next_n": 803,
+      "status": "nonmonotone_observed",
+      "observed_all_n": 808,
+      "observed_all_runs": 8,
+      "observed_all_phases": {
+        "pilot": 8
+      }
+    },
+    "retries": {
+      "n": 247,
+      "next_n": 248,
+      "status": "uncertain",
+      "confirmed_n": 246,
+      "rejected_n": 249
+    }
+  },
+  {
+    "dist": "uniform",
+    "alpha": 10,
+    "loss": {
+      "n": 810,
+      "next_n": 811,
+      "status": "precision_not_met",
+      "observed_all_n": 812,
+      "observed_all_runs": 4,
+      "observed_all_phases": {
+        "pilot": 4
+      }
+    },
+    "retries": {
+      "n": 247,
+      "next_n": 248,
+      "status": "uncertain",
+      "confirmed_n": 246,
+      "rejected_n": 250
+    }
+  },
+  {
+    "dist": "exp",
+    "alpha": 50,
+    "loss": {
+      "n": 155,
+      "next_n": 156,
+      "status": "precision_not_met",
+      "observed_all_n": 158,
+      "observed_all_runs": 8,
+      "observed_all_phases": {
+        "pilot": 8
+      }
+    },
+    "retries": {
+      "n": 50,
+      "next_n": 51,
+      "status": "adjacent_checked",
+      "confirmed_n": 50,
+      "rejected_n": 51
+    }
+  },
+  {
+    "dist": "uniform",
+    "alpha": 50,
+    "loss": {
+      "n": 159,
+      "next_n": 160,
+      "status": "precision_not_met",
+      "observed_all_n": 159,
+      "observed_all_runs": 128,
+      "observed_all_phases": {
+        "measure": 128
+      }
+    },
+    "retries": {
+      "n": 50,
+      "next_n": 51,
+      "status": "precision_not_met",
+      "confirmed_n": 50,
+      "rejected_n": 51
+    }
+  },
+  {
+    "dist": "exp",
+    "alpha": 100,
+    "loss": {
+      "n": 75,
+      "next_n": 76,
+      "status": "precision_not_met",
+      "observed_all_n": 75,
+      "observed_all_runs": 128,
+      "observed_all_phases": {
+        "measure": 128
+      }
+    },
+    "retries": {
+      "n": 25,
+      "next_n": 26,
+      "status": "adjacent_checked",
+      "confirmed_n": 25,
+      "rejected_n": 26
+    }
+  },
+  {
+    "dist": "uniform",
+    "alpha": 100,
+    "loss": {
+      "n": 78,
+      "next_n": 79,
+      "status": "precision_not_met",
+      "observed_all_n": 78,
+      "observed_all_runs": 136,
+      "observed_all_phases": {
+        "pilot": 8,
+        "measure": 128
+      }
+    },
+    "retries": {
+      "n": 25,
+      "next_n": 26,
+      "status": "adjacent_checked",
+      "confirmed_n": 25,
+      "rejected_n": 26
+    }
+  }
+]
